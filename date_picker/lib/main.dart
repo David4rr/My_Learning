@@ -64,7 +64,7 @@ class _tanggalState extends State<tanggal> with RestorationMixin {
   }
 
   @override
-  void restoreState(RestorationBucket? oldBucket, bool intialRestore) {
+  void restoreState(RestorationBucket? oldBucket, bool initialRestore) {
     registerForRestoration(_selectedDate, 'selected_date');
     registerForRestoration(_datePicker, 'date_picker_route_future');
   }
